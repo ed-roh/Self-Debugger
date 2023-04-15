@@ -37,7 +37,7 @@ npm install
 cp .env.example .env
 ```
 
-5. Add your OpenAI API Key and paste into your env file under "# Your OpenAI API Key"
+5. Get [OpenAI API Key](https://platform.openai.com/account/api-keys) and paste into .env file under "# Your OpenAI API Key"
 
 ```bash
 OPENAI_API_KEY= # Your OpenAI API key
@@ -51,4 +51,6 @@ node selfDebug.js --scriptName buggyScript.js
 
 7. Watch the Magic:
 
+```bash
 Check as it fixes the bug in the 'buggyScript.js' file! 🥳
+```
