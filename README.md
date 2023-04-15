@@ -2,9 +2,9 @@ Self-Debugger is an experimental project that allows for automatic
 debugging of javascript code with GPT. It will continually
 rerun the script until all the errors are fixed by editing the code file.
 
-
 https://user-images.githubusercontent.com/36801809/232237399-d8fa57e9-53e8-4224-a8a7-6308e68c4e15.mp4
 
+This project is inspired by python version: https://github.com/biobootloader/wolverine
 
 ## 🎉 Roadmap
 
