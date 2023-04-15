@@ -31,26 +31,24 @@ cd self-debugger
 npm install
 ```
 
-4. Create Env and Add your OpenAI Key
+4. Create Env file
 
 ```bash
 cp .env.example .env
 ```
 
-and then go to OpenAI, get an OpenAI API Key and paste that into "# Your OpenAI API Key"
+5. Add your OpenAI API Key and paste into your env file under "# Your OpenAI API Key"
 
 ```bash
 OPENAI_API_KEY= # Your OpenAI API key
 ```
 
-5. Ready 🥳, now run command in terminal:
+6. Ready 🥳, now run command in terminal:
 
 ```bash
 node selfDebug.js --scriptName buggyScript.js
 ```
 
-(of course you can run it on any script file, just replace buggyScript.js with any other file)
-
-6. Watch the Magic:
+7. Watch the Magic:
 
 Check as it fixes the bug in the 'buggyScript.js' file! 🥳
